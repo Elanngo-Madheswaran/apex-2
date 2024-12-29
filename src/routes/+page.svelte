@@ -55,7 +55,7 @@
     </div>
     <div class="flex-col justify-center p-5 lg:flex hidden">
         <img src="/services/im1.png" alt="feather pen " class="object-cover"/>
-        <img src="/services/im3.png" alt="feather pen " class="object-cover"/>
+        <img src="/services/im3.png" alt="a guy working in lab " class="object-cover"/>
     </div>
 </div>
 </section>
