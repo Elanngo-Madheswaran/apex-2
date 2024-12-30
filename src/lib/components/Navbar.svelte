@@ -51,7 +51,7 @@
                     <a href="/#services" onclick={toggleMenu} class="block py-2 px-3 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-blue-300">Services</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-blue-300">Contact</a>
+                    <a href="/#contact" onclick={toggleMenu} class="block py-2 px-3 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-blue-300">Contact</a>
                 </li>
                 
             </ul>

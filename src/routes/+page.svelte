@@ -69,30 +69,114 @@
             <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
                 <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
             </div>
-            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+            <img src="/services/im1.png" alt="a guy helping a woman in computer" class="object-cover rounded-xl sm:m-5"/> 
         </div>
         <div class="flex flex-col bg-neutral-300 sm:m-5 m-1">
             <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+                <h5 class="uppercase md:text-2xl text-lg">Translation</h5>
             </div>
-            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+            <img src="/services/im2.png" alt="Translation" class="object-cover rounded-xl sm:m-5"/> 
         </div>
     </div>
     <div class="lg:w-3/4 flex md:flex-row flex-col justify-center bg-slate-300/40 border-b-8 border-slate-500 my-5">
-        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1">
+        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1 md:w-1/2">
             <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+                <h5 class="uppercase md:text-2xl text-lg">Plagiarism Correction</h5>
             </div>
-            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+            <img src="/services/im3.png" alt="Plagarism Checking" class="object-cover rounded-xl sm:m-5 h-full"/> 
         </div>
-        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1">
+        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1 md:w-1/2">
             <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+                <h5 class="uppercase md:text-2xl text-lg">Peer review Support</h5>
             </div>
-            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+            <img src="/services/im4.png" alt="Peer review" class="object-cover rounded-xl sm:m-5"/> 
         </div>
     </div>
-    
-   
-  
 </section>
+
+<section class="w-full flex flex-col justify-center items-center mt-5 bg-slate-300">
+    <div class="flex flex-col md:flex-row w-full justify-center items-center p-5">
+        <div class="text-center p-5 md:w-1/2 bg-white sm:m-5 my-5 flex flex-col">
+            <h2 class="text-3xl text-slate-700 font-medium my-5">Why Choose Us?</h2>
+            <p class="text-slate-800 text-xl">At Apex Research Academy, we equip you to embark on your journey into scientific research and writing. With expert mentorship and hands-on projects, our programs ensure a seamless and rewarding learning experience. Discover, learn, and excel with us!</p>
+            <div class="flex flex-col justify-end items-center h-full">
+<button
+  type="submit"
+  class="flex m-5 justify-center gap-2 items-center mx-auto text-lg bg-slate-300 lg:font-semibold isolation-auto before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:bg-slate-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden group"
+>
+  Enroll now
+  <svg
+    class="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
+    viewBox="0 0 16 19"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+      class="fill-gray-800 group-hover:fill-gray-800"
+    ></path>
+  </svg>
+</button>
+
+            </div>
+        </div>
+        <img src="/why_choose_us.png" alt="Bulb in the middle of a book" class="rounded-full sm:w-[350px] sm:h-[350px] w-[200px] h-[200px]"/>
+    </div>
+</section>
+
+<section class="w-full flex flex-col items-center bg-slate-700/40 p-5 text-slate-800" id="contact">
+    <div class="xl:w-3/4">
+        <h3 class="sm:text-5xl text-2xl font-bold my-5 text-start w-full">Contact Us</h3>
+    </div>
+    <div class="xl:w-3/4 w-full flex flex-row flex-wrap justify-center items-center">
+            <form class="md:w-4/6  max-w-screen-lg my-5">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-first-name">
+                      First Name
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                  </div>
+                  <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-last-name">
+                      Last Name
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
+                      E-mail
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
+                      Message
+                    </label>
+                    <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+                </div>
+                </div>
+                <div class="md:flex md:items-center">
+                  <div class="md:w-1/3">
+                    <button class="shadow bg-white  focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">
+                      Send
+                    </button>
+                  </div>
+                  <div class="md:w-2/3"></div>
+                </div>
+              </form>
+        <div class="md:self-start">
+            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-phone"></i>Phone: (+1) 919-943-2704</p>
+            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-envelope"></i>Email: arswacademy@gmail.com</p>
+            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-map-pin-line"></i>Location: Cary NC</p>
+        </div>
+    </div>
+
+</section>
+
+<footer class="w-full flex justify-center bg-slate-800/50 p-5">
+    <p>Copyright &copy; 2025 All rights reserved</p>
+</footer>
