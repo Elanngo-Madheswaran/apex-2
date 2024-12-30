@@ -18,28 +18,28 @@
     </div>
 </section>
 
-<section class="w-full flex flex-col justify-center items-center mt-5" id="services">
+<section class="w-full flex flex-col justify-center items-center mt-5">
     <div class="p-5 border border-slate-400 bg-slate-300 w-full">
         <h2 class="text-center text-purple-700 font-medium md:text-3xl text-xl">Content we refine</h2>
     </div>
 <div class="xl:w-3/4 flex justify-center bg-slate-300 mt-5">
     <div class="lg:w-3/4 sm:p-5 p-2 flex flex-col justify-center items-center">
         <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/services/im2.png" alt="book" class="w-40"/>
+            <img src="/content/im2.png" alt="book" class="w-40"/>
             <div class="sm:p-5">
                 <h4 class="text-slate-800 italic text-2xl font-medium text-center">Research Papers</h4>
                 <p class="text-xl">Our specialty is refining various scientific papers for peer-reviewed journal publication, guaranteeing clear communication, logical flow, exactness, and lucid data visualization. </p>
             </div>
         </div>
         <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/services/im4.png" alt="book" class="w-40"/>
+            <img src="/content/im4.png" alt="book" class="w-40"/>
             <div class="sm:p-5">
                 <h4 class="text-slate-800 italic text-2xl font-medium text-center">Theses and Dissertations</h4>
                 <p class="text-xl">Our thesis and dissertation editing services will ensure clarity of presentation, logical structure, coherence of arguments, and referencing and citation accuracy.</p>
             </div>
         </div>
         <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/services/im5.png" alt="book" class="w-40"/>
+            <img src="/content/im5.png" alt="book" class="w-40"/>
             <div class="sm:p-5">
                 <h4 class="text-slate-800 italic text-2xl font-medium text-center">Conference papers and abstracts</h4>
                 <p class="text-xl">We examine and polish symposium documents and summaries, confirming they are clear, succinct, and in line with submission criteria.</p>
@@ -54,8 +54,45 @@
 
     </div>
     <div class="flex-col justify-center p-5 lg:flex hidden">
-        <img src="/services/im1.png" alt="feather pen " class="object-cover"/>
-        <img src="/services/im3.png" alt="a guy working in lab " class="object-cover"/>
+        <img src="/content/im1.png" alt="feather pen " class="object-cover"/>
+        <img src="/content/im3.png" alt="a guy working in lab " class="object-cover"/>
     </div>
 </div>
+</section>
+
+<section class="w-full flex flex-col justify-center items-center mt-5" id="services">
+    <div class="p-5 border border-purple-400 bg-slate-300 w-full">
+        <h2 class="text-center text-purple-700 font-medium md:text-3xl text-xl uppercase">Services</h2>
+    </div>
+    <div class="lg:w-3/4 flex md:flex-row flex-col justify-center bg-slate-300/40 border-b-8 border-slate-500 my-5">
+        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1">
+            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
+                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+            </div>
+            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+        </div>
+        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1">
+            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
+                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+            </div>
+            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+        </div>
+    </div>
+    <div class="lg:w-3/4 flex md:flex-row flex-col justify-center bg-slate-300/40 border-b-8 border-slate-500 my-5">
+        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1">
+            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
+                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+            </div>
+            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+        </div>
+        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1">
+            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
+                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
+            </div>
+            <img src="/services/im1.png" alt="a guy working in lab " class="object-cover rounded-xl sm:m-5"/> 
+        </div>
+    </div>
+    
+   
+  
 </section>
