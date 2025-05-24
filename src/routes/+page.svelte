@@ -1,10 +1,17 @@
-<hero class="flex w-full items-center flex-col">
+<!-- <hero class="flex w-full items-center flex-col">
     <img src="/home/hero-img.png" class="h-3/5 sm:w-full object-cover" alt="A guy typing in laptop keyboard"/>
     <div class="xl:w-3/4 p-5">
         <p class="lg:text-2xl md:text-xl text-sm text-justify text-slate-700 font-medium">At Apex Research and Scientific Writing Academy, we provide premier scientific alteration services encompassing all components of scientific dialogue, including comprehensive research papers, financial aid proposal drafts, medical correspondence strategies, and instructive manuals. Our adept scientific revision experts collaborate closely with you to generate a clear, well-structured document that eloquently conveys your scientific, health, and technical research findings, guaranteeing publication in English-speaking journals, securing successful fund appropriations.</p>
         <hr class="border-2 border-slate-400 my-5 rounded-lg"/>
     </div>
+</hero> -->
+
+<!-- Hero section  -->
+<hero class="flex text-5xl tracking-wide bg-neutral-200 font-bold p-5 items-center justify-center">
+  <h2>Transforming Research Into Readable Excellence — Expert scientific editing to elevate your research</h2>
+  <img src="/home/hero_image.png" class="h-3/5 sm:w-2/5 object-cover m-5" alt="A guy typing in laptop keyboard"/>
 </hero>
+
 
 <section class="w-full flex justify-center" id="about">
     <div class="flex xl:w-3/4 w-full h-full">
