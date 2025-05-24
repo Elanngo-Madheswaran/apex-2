@@ -1,189 +1,290 @@
-<!-- <hero class="flex w-full items-center flex-col">
-    <img src="/home/hero-img.png" class="h-3/5 sm:w-full object-cover" alt="A guy typing in laptop keyboard"/>
-    <div class="xl:w-3/4 p-5">
-        <p class="lg:text-2xl md:text-xl text-sm text-justify text-slate-700 font-medium">At Apex Research and Scientific Writing Academy, we provide premier scientific alteration services encompassing all components of scientific dialogue, including comprehensive research papers, financial aid proposal drafts, medical correspondence strategies, and instructive manuals. Our adept scientific revision experts collaborate closely with you to generate a clear, well-structured document that eloquently conveys your scientific, health, and technical research findings, guaranteeing publication in English-speaking journals, securing successful fund appropriations.</p>
-        <hr class="border-2 border-slate-400 my-5 rounded-lg"/>
-    </div>
-</hero> -->
-
 <!-- Hero section  -->
-<hero class="flex text-5xl tracking-wide bg-neutral-200 font-bold p-5 items-center justify-center">
-  <h2>Transforming Research Into Readable Excellence — Expert scientific editing to elevate your research</h2>
-  <img src="/home/hero_image.png" class="h-3/5 sm:w-2/5 object-cover m-5" alt="A guy typing in laptop keyboard"/>
+<hero class="flex bg-neutral-200 p-5 items-center justify-center">
+  <div
+    class="flex flex-col md:flex-row max-w-screen-2xl justify-center items-center"
+  >
+    <h2
+      class="lg:text-6xl md:text-4xl text-3xl tracking-wide text-center sm:text-start font-semibold sm:m-5"
+    >
+      Transforming Research Into Readable Excellence — Expert scientific editing
+      to elevate your research
+    </h2>
+    <img
+      src="/home/hero_image.png"
+      class="md:h-3/5 h-80 sm:w-2/5 object-cover p-5"
+      alt="A guy typing in laptop keyboard"
+    />
+  </div>
 </hero>
 
-
-<section class="w-full flex justify-center" id="about">
-    <div class="flex xl:w-3/4 w-full h-full">
-        <div class="w-full flex justify-center items-center lg:flex-row flex-col">
-            <img src="/home/about_us.jpg" alt="A guy and a girl speaking" class="lg:w-3/4 w-full object-cover z-0"/>
-            <div class="border border-purple-700 lg:shadow-[rgba(126,_34,_206,_0.4)_0px_60px_40px_-7px] p-5 sm:w-[400px] sm:h-[400px] lg:-translate-x-40 bg-white z-10 lg:m-0 m-5">
-                <h2 class="text-2xl text-purple-700 font-bold text-center">About Us</h2>
-                <p class="text-slate-800 text-xl">At Apex Research and Scientific Writing Academy, experienced professors and scientists guide you with expert mentorship. Our programs blend theory, practical exercises, and personalized support to empower your research and communication skills. Unlock your potential and succeed in the dynamic world of academia and science. Join us for a journey of growth and excellence</p>
-            </div>
-        </div>
-    </div>
+<!-- Main section -->
+<section class="p-5 md:text-justify justify-center items-center flex md:h-[500px] bg-fixed bg-center bg-cover" style="background-image: url('./main_img_bg.jpeg');">
+  <div class="max-w-screen-2xl flex justify-center">
+    <p class="xl:text-2xl sm:text-xl text-lg md:max-w-3/4 m-5 bg-white p-6 rounded">
+      At Apex Research and Scientific Writing Academy, we provide premier
+      scientific alteration services encompassing all components of scientific
+      dialogue, including comprehensive research papers, financial aid proposal
+      drafts, medical correspondence strategies, and instructive manuals. Our
+      adept scientific revision experts collaborate closely with you to generate
+      a clear, well-structured document that eloquently conveys your scientific,
+      health, and technical research findings, guaranteeing publication in
+      English-speaking journals, securing successful fund appropriations.
+    </p>
+  </div>
 </section>
 
-<section class="w-full flex flex-col justify-center items-center mt-5">
-    <div class="p-5 border border-slate-400 bg-slate-300 w-full">
-        <h2 class="text-center text-purple-700 font-medium md:text-3xl text-xl">Content we refine</h2>
-    </div>
-<div class="xl:w-3/4 flex justify-center bg-slate-300 mt-5">
-    <div class="lg:w-3/4 sm:p-5 p-2 flex flex-col justify-center items-center">
-        <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/content/im2.png" alt="book" class="w-40"/>
-            <div class="sm:p-5">
-                <h4 class="text-slate-800 italic text-2xl font-medium text-center">Research Papers</h4>
-                <p class="text-xl">Our specialty is refining various scientific papers for peer-reviewed journal publication, guaranteeing clear communication, logical flow, exactness, and lucid data visualization. </p>
-            </div>
-        </div>
-        <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/content/im4.png" alt="book" class="w-40"/>
-            <div class="sm:p-5">
-                <h4 class="text-slate-800 italic text-2xl font-medium text-center">Theses and Dissertations</h4>
-                <p class="text-xl">Our thesis and dissertation editing services will ensure clarity of presentation, logical structure, coherence of arguments, and referencing and citation accuracy.</p>
-            </div>
-        </div>
-        <div class="bg-white sm:p-5 p-1 flex md:flex-row flex-col justify-center items-center my-5">
-            <img src="/content/im5.png" alt="book" class="w-40"/>
-            <div class="sm:p-5">
-                <h4 class="text-slate-800 italic text-2xl font-medium text-center">Conference papers and abstracts</h4>
-                <p class="text-xl">We examine and polish symposium documents and summaries, confirming they are clear, succinct, and in line with submission criteria.</p>
-            </div>
-        </div>
-        <div class="self-start">
-            <button class="bg-slate-200 text-slate-950 border border-slate-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-              <span class="bg-slate-400 shadow-slate-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
-              Learn More
-            </button>
-        </div>
-
-    </div>
-    <div class="flex-col justify-center p-5 lg:flex hidden">
-        <img src="/content/im1.png" alt="feather pen " class="object-cover"/>
-        <img src="/content/im3.png" alt="a guy working in lab " class="object-cover"/>
-    </div>
-</div>
-</section>
-
-<section class="w-full flex flex-col justify-center items-center mt-5" id="services">
-    <div class="p-5 border border-purple-400 bg-slate-300 w-full">
-        <h2 class="text-center text-purple-700 font-medium md:text-3xl text-xl uppercase">Services</h2>
-    </div>
-    <div class="lg:w-3/4 flex md:flex-row flex-col justify-center bg-slate-300/40 border-b-8 border-slate-500 my-5">
-        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1">
-            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Comprehensive Editing</h5>
-            </div>
-            <img src="/services/im1.png" alt="a guy helping a woman in computer" class="object-cover rounded-xl sm:m-5"/> 
-        </div>
-        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1">
-            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Translation</h5>
-            </div>
-            <img src="/services/im2.png" alt="Translation" class="object-cover rounded-xl sm:m-5"/> 
-        </div>
-    </div>
-    <div class="lg:w-3/4 flex md:flex-row flex-col justify-center bg-slate-300/40 border-b-8 border-slate-500 my-5">
-        <div class="flex flex-col bg-lime-200/30 sm:m-5 m-1 md:w-1/2">
-            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Plagiarism Correction</h5>
-            </div>
-            <img src="/services/im3.png" alt="Plagarism Checking" class="object-cover rounded-xl sm:m-5 h-full"/> 
-        </div>
-        <div class="flex flex-col bg-neutral-300 sm:m-5 m-1 md:w-1/2">
-            <div class="bg-white sm:p-5 py-5 flex flex-col justify-center items-center my-5">
-                <h5 class="uppercase md:text-2xl text-lg">Peer review Support</h5>
-            </div>
-            <img src="/services/im4.png" alt="Peer review" class="object-cover rounded-xl sm:m-5"/> 
-        </div>
-    </div>
-</section>
-
-<section class="w-full flex flex-col justify-center items-center mt-5 bg-slate-300">
-    <div class="flex flex-col md:flex-row w-full justify-center items-center p-5">
-        <div class="text-center p-5 md:w-1/2 bg-white sm:m-5 my-5 flex flex-col">
-            <h2 class="text-3xl text-slate-700 font-medium my-5">Why Choose Us?</h2>
-            <p class="text-slate-800 text-xl">At Apex Research Academy, we equip you to embark on your journey into scientific research and writing. With expert mentorship and hands-on projects, our programs ensure a seamless and rewarding learning experience. Discover, learn, and excel with us!</p>
-            <div class="flex flex-col justify-end items-center h-full">
-<button
-  type="submit"
-  class="flex m-5 justify-center gap-2 items-center mx-auto text-lg bg-slate-300 lg:font-semibold isolation-auto before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:bg-slate-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden group"
->
-  Enroll now
-  <svg
-    class="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
-    viewBox="0 0 16 19"
-    xmlns="http://www.w3.org/2000/svg"
+<!-- About us Section -->
+<section class="p-5 flex flex-col w-full justify-center items-center">
+  <div
+    class="lg:max-w-screen-2xl flex flex-col justify-center items-center m-5"
   >
-    <path
-      d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
-      class="fill-gray-800 group-hover:fill-gray-800"
-    ></path>
-  </svg>
-</button>
-
-            </div>
-        </div>
-        <img src="/why_choose_us.png" alt="Bulb in the middle of a book" class="rounded-full sm:w-[350px] sm:h-[350px] w-[200px] h-[200px]"/>
+    <div class="w-9/10 flex flex-col">
+      <h2 class="lg:text-4xl text-2xl font-semibold mb-15">About us</h2>
+      <p class="lg:text-2xl/12 text-xl/7">
+        At Apex Research and Scientific Writing Academy, experienced professors
+        and scientists guide you with expert mentorship. Our programs blend
+        theory, practical exercises, and personalized support to empower your
+        research and communication skills. Unlock your potential and succeed in
+        the dynamic world of academia and science. Join us for a journey of
+        growth and excellence.
+      </p>
     </div>
+    <img
+      src="./about/image.png"
+      alt="Apex Research and Scientific Writing Academy"
+      class="border-8 border-stone-700 my-5 object-cover self-center"
+    />
+  </div>
 </section>
 
-<section class="w-full flex flex-col items-center bg-slate-700/40 p-5 text-slate-800" id="contact">
-    <div class="xl:w-3/4">
-        <h3 class="sm:text-5xl text-2xl font-bold my-5 text-start w-full">Contact Us</h3>
+<!-- Contents we refine section -->
+<section class="p-5 flex flex-col w-full justify-center items-center">
+  <div
+    class="lg:max-w-screen-2xl flex flex-col justify-center items-center m-5"
+  >
+    <div class="w-9/10 flex flex-col">
+      <h2 class="lg:text-4xl text-2xl font-semibold mb-15">
+        Contents we refine
+      </h2>
+      <p class="lg:text-2xl/12 text-xl/7">
+        Explore our range of services tailored for the writing community. From
+        editing research papers to refining theses and dissertations, we ensure
+        your work meets top academic standards.
+      </p>
     </div>
-    <div class="xl:w-3/4 w-full flex flex-row flex-wrap justify-center items-center">
-            <form class="md:w-4/6  max-w-screen-lg my-5">
-                <div class="flex flex-wrap -mx-3 mb-6">
-                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-first-name">
-                      First Name
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-                  </div>
-                  <div class="w-full md:w-1/2 px-3">
-                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-last-name">
-                      Last Name
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-                  </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                  <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
-                      E-mail
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
-                  </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                  <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
-                      Message
-                    </label>
-                    <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-                </div>
-                </div>
-                <div class="md:flex md:items-center">
-                  <div class="md:w-1/3">
-                    <button class="shadow bg-white  focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">
-                      Send
-                    </button>
-                  </div>
-                  <div class="md:w-2/3"></div>
-                </div>
-              </form>
-        <div class="md:self-start">
-            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-phone"></i>Phone: (+1) 919-943-2704</p>
-            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-envelope"></i>Email: arswacademy@gmail.com</p>
-            <p class="sm:m-5 m-2 sm:text-2xl text-md"><i class="ph-light ph-map-pin-line"></i>Location: Cary NC</p>
-        </div>
+    <div class="bg-neutral-400 flex w-full flex-wrap justify-center m-5">
+      <div class="w-50 m-5 mt-10">
+        <img
+          src="./content/im1.png"
+          alt="Theses & Dissertations"
+          class="object-cover"
+        />
+        <p class="py-5 translate-x-5 -translate-y-5 text-center bg-neutral-200">
+          Theses & Dissertations
+        </p>
+      </div>
+      <div class="w-50 m-5 mt-10">
+        <img
+          src="./content/im2.png"
+          alt="Academic Editing"
+          class="object-cover"
+        />
+        <p class="py-5 translate-x-5 -translate-y-5 text-center bg-neutral-200">
+          Academic Editing
+        </p>
+      </div>
+      <div class="w-50 m-5 mt-10">
+        <img
+          src="./content/im3.png"
+          alt="Conference Papers"
+          class="object-cover"
+        />
+        <p class="py-5 translate-x-5 -translate-y-5 text-center bg-neutral-200">
+          Conference Papers
+        </p>
+      </div>
+      <div class="w-50 m-5 mt-10">
+        <img src="./content/im4.png" alt="Abstracts" class="object-cover" />
+        <p class="py-5 translate-x-5 -translate-y-5 text-center bg-neutral-200">
+          Abstracts
+        </p>
+      </div>
     </div>
+  </div>
+</section>
 
+<!-- Services section  -->
+<section class="p-5 flex flex-col w-full justify-center items-center bg-neutral-200">
+  <div class="lg:max-w-screen-2xl flex flex-col justify-center items-center m-5">
+    <h2 class="lg:text-4xl text-2xl font-semibold mb-5 self-start">Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 md:gap-20 gap-15 w-full mt-10">
+      <!-- Professional Services -->
+      <div class="flex flex-col">
+        <div class="flex items-center gap-3 sm:mb-4">
+          <i class="ph ph-smiley md:text-3xl text-xl"></i>
+          <h3 class="text-xl font-medium">Professional Services</h3>
+        </div>
+        <p class="lg:text-xl text-lg sm:mx-10 my-5">
+          Enhance your writing with our Comprehensive Editing, Translation, Peer
+          Review Support, and Plagiarism Correction services. Our team of
+          experts ensures your work is polished and error-free.
+        </p>
+      </div>
+
+      <!-- Translation Services -->
+      <div class="flex flex-col">
+        <div class="flex items-center gap-3 sm:mb-4">
+          <i class="ph ph-star md:text-3xl text-xl"></i>
+          <h3 class="text-xl font-medium">Translation Services</h3>
+        </div>
+        <p class="lg:text-xl text-lg sm:mx-10 my-5">
+          Break language barriers with our precise translation services. Our
+          translators are proficient in multiple languages, delivering accurate
+          and culturally sensitive translations for your work.
+        </p>
+      </div>
+
+      <!-- Editing Experts -->
+      <div class="flex flex-col">
+        <div class="flex items-center gap-3 sm:mb-4">
+          <i class="ph ph-globe md:text-3xl text-xl"></i>
+          <h3 class="text-xl font-medium">Editing Experts</h3>
+        </div>
+        <p class="lg:text-xl text-lg sm:mx-10 my-5">
+          Our editing team refines your content to perfection, ensuring clarity
+          and coherence. We specialize in various writing styles and genres,
+          catering to all your editing needs.
+        </p>
+      </div>
+
+      <!-- Peer Review Support -->
+      <div class="flex flex-col">
+        <div class="flex items-center gap-3 sm:mb-4">
+          <i class="ph ph-lightning md:text-3xl text-xl"></i>
+          <h3 class="text-xl font-medium">Peer Review Support</h3>
+        </div>
+        <p class="lg:text-xl text-lg sm:mx-10 my-5">
+          Receive constructive feedback and insights from our community of
+          writers. Our peer review support helps you refine your writing,
+          strengthen your arguments, and enhance your overall work.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us section -->
+
+<section class="p-5 flex flex-col w-full justify-center items-center bg-cover bg-center bg-no-repeat" style="background-image: url('./why_choose_us.png');">
+  <div class="lg:max-w-screen-2xl sm:w-120 w-9/10 flex flex-col justify-center items-center m-5 ">
+    <div class="flex flex-col bg-white p-6 rounded">
+      <h2 class="lg:text-4xl text-2xl font-semibold mb-5">
+        Why Choose Us?
+      </h2>
+      <p class="lg:text-xl/7 text-lg/5 mb-5">
+        At Apex Research Academy, we equip you to embark on your journey into scientific research and writing. With expert mentorship and hands-on projects, our programs ensure a seamless and rewarding learning experience. Discover, learn, and excel with us!
+      </p>
+    </div>
+    <div class="flex justify-center">
+      <a href="/" class="bg-stone-800 text-white text-2xl p-5 -translate-y-5 hover:bg-stone-700 transition-colors">
+        Join Our Writing Community
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="p-5 mt-10">
+  <div class="lg:max-w-screen-2xl mx-auto">
+    <h2 class="text-center text-4xl font-bold mb-10">Join us today to elevate your writing!</h2>
+    <div class="flex justify-center">
+      <a href="#" class="bg-transparent border border-slate-700 text-slate-800 py-3 px-6 hover:bg-slate-100 transition-colors">
+        Get Started Now
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<section
+  class="w-full p-5 bg-stone-500"
+  id="contact"
+>
+  <div class="max-w-screen-2xl mx-auto">
+    <h2 class="text-5xl font-semibold text-center mb-10 text-neutral-200">Contact</h2>
+    
+    <div class="flex flex-col md:flex-row bg-white">
+      <div class="md:w-1/3 p-8">
+        <p class="mb-5">
+          Get in touch with academy Writing Community for any
+          inquiries or collaborations. We'd love to hear from you!
+        </p>
+        
+        <div class="mb-5">
+          <p class="font-medium mb-2">Contact Form</p>
+          <p class="mb-2">Reach Out</p>
+          <p class="mb-5">Contact Information</p>
+        </div>
+        
+        <div class="flex gap-2 mt-5">
+          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+            <i class="ph ph-facebook-logo"></i>
+          </a>
+          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+            <i class="ph ph-twitter-logo"></i>
+          </a>
+          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="md:w-2/3 p-8">
+        <div class="mb-5">
+          <label class="block mb-2">First Name</label>
+          <input 
+            type="text" 
+            class="w-full border border-gray-300 p-2 mb-4"
+          />
+        </div>
+        
+        <div class="mb-5">
+          <label class="block mb-2">Last Name</label>
+          <input 
+            type="text" 
+            class="w-full border border-gray-300 p-2 mb-4"
+          />
+        </div>
+        
+        <div class="mb-5">
+          <label class="block mb-2">Email *</label>
+          <input 
+            type="email" 
+            class="w-full border border-gray-300 p-2 mb-4" 
+            required
+          />
+        </div>
+        
+        <div class="mb-5">
+          <label class="block mb-2">Message</label>
+          <textarea 
+            class="w-full border border-gray-300 p-2 h-32 mb-4"
+          ></textarea>
+        </div>
+        
+        <button 
+          class="bg-black text-white py-2 px-4 w-full"
+        >
+          Send Message
+        </button>
+      </div>
+    </div>
+  </div>
 </section>
 
 <footer class="w-full flex justify-center bg-slate-800/50 p-5">
-    <p>Copyright &copy; 2025 All rights reserved</p>
+  <p>Copyright &copy; 2025 All rights reserved</p>
 </footer>
