@@ -18,7 +18,7 @@
 </hero>
 
 <!-- Main section -->
-<section class="p-5 md:text-justify justify-center items-center flex md:h-[500px] bg-fixed bg-center bg-cover" style="background-image: url('./main_img_bg.jpeg');">
+<section class="p-5 md:text-justify justify-center items-center flex md:h-[500px] bg-fixed bg-center bg-cover" style="background-image: url('./main_img_bg.png');">
   <div class="max-w-screen-2xl flex justify-center">
     <p class="xl:text-2xl sm:text-xl text-lg md:max-w-3/4 m-5 bg-white p-6 rounded">
       At Apex Research and Scientific Writing Academy, we provide premier
