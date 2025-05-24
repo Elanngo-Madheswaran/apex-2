@@ -8,7 +8,7 @@
             </h2>
             <p class="text-2xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
             <p class="mt-4 mb-8 text-gray-600">But don't worry, you can find plenty of other things on our homepage.</p>
-            <a href="/" class="px-8 py-3 font-semibold rounded bg-blue-600 text-white hover:bg-blue-700">Back to homepage</a>
+            <a href="/" class="px-8 py-3 font-semibold rounded-sm bg-blue-600 text-white hover:bg-blue-700">Back to homepage</a>
         </div>
     </div>
 </section>
