@@ -46,13 +46,13 @@
         <div class="hidden w-full lg:block lg:w-auto p-5 text-xl" id="navbar-default">
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-neutral-100 lg:flex-row lg:space-x-20 rtl:space-x-reverse lg:mt-0 lg:border-0 ">
                 <li class="self-center">
-                    <a href="/#work" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Work</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Work</a>
                 </li>
                 <li class="self-center">
-                    <a href="/#about" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
                 </li>
                 <li class="self-center">
-                    <a href="/#contact" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
                 </li>
                 <li class="self-center relative">
                     <button 
@@ -71,7 +71,7 @@
                     {/if}
                 </li>
                 <li class="self-center">
-                    <a href="/#" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:rounded-full lg:p-3 lg:bg-neutral-100 lg:text-orange-500 lg:border-orange-500 lg:border lg:hover:bg-orange-500 lg:hover:text-neutral-100">Get Started</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:rounded-full lg:p-3 lg:bg-neutral-100 lg:text-orange-500 lg:border-orange-500 lg:border lg:hover:bg-orange-500 lg:hover:text-neutral-100">Get Started</a>
                 </li>
             </ul>
         </div>
