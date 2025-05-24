@@ -205,25 +205,34 @@
 </section>
 
 
-
-<section
-  class="w-full p-5 bg-stone-500"
-  id="contact"
->
+<section class="w-full p-5 bg-stone-500" id="contact">
   <div class="max-w-screen-2xl mx-auto">
-    <h2 class="text-5xl font-semibold text-center mb-10 text-neutral-200">Contact</h2>
+    <h2 class="text-5xl font-semibold text-center mb-10 text-neutral-200">Contact Us</h2>
     
     <div class="flex flex-col md:flex-row bg-white">
       <div class="md:w-1/3 p-8">
         <p class="mb-5">
-          Get in touch with academy Writing Community for any
+          Get in touch with Academy Writing Community for any
           inquiries or collaborations. We'd love to hear from you!
         </p>
         
         <div class="mb-5">
-          <p class="font-medium mb-2">Contact Form</p>
-          <p class="mb-2">Reach Out</p>
-          <p class="mb-5">Contact Information</p>
+          <p class="font-medium mb-2">Contact Information</p>
+          
+          <div class="flex items-start mb-3">
+            <i class="ph ph-phone text-xl mr-3 mt-1"></i>
+            <p>Phone: (+1) 919-943-2704</p>
+          </div>
+          
+          <div class="flex items-start mb-3">
+            <i class="ph ph-envelope text-xl mr-3 mt-1"></i>
+            <p>Email: arswacademy@gmail.com</p>
+          </div>
+          
+          <div class="flex items-start mb-3">
+            <i class="ph ph-map-pin text-xl mr-3 mt-1"></i>
+            <p>Location: Cary NC</p>
+          </div>
         </div>
         
         <div class="flex gap-2 mt-5">
@@ -241,49 +250,51 @@
           </a>
         </div>
       </div>
-      
       <div class="md:w-2/3 p-8">
-        <div class="mb-5">
-          <label for="firstName" class="block mb-2">First Name</label>
-          <input 
-            id="firstName"
-            type="text" 
-            class="w-full border border-gray-300 p-2 mb-4"
-          />
-        </div>
-        
-        <div class="mb-5">
-          <label for="lastName" class="block mb-2">Last Name</label>
-          <input 
-            id="lastName"
-            type="text" 
-            class="w-full border border-gray-300 p-2 mb-4"
-          />
-        </div>
-        
-        <div class="mb-5">
-          <label for="email" class="block mb-2">Email *</label>
-          <input 
-            id="email"
-            type="email" 
-            class="w-full border border-gray-300 p-2 mb-4" 
-            required
-          />
-        </div>
-        
-        <div class="mb-5">
-          <label for="message" class="block mb-2">Message</label>
-          <textarea 
-            id="message"
-            class="w-full border border-gray-300 p-2 h-32 mb-4"
-          ></textarea>
-        </div>
-        
-        <button 
-          class="bg-black text-white py-2 px-4 w-full"
-        >
-          Send Message
-        </button>
+        <form>
+          <div class="mb-5">
+            <label for="firstName" class="block mb-2">First Name</label>
+            <input 
+              id="firstName"
+              type="text" 
+              class="w-full border border-gray-300 p-2 mb-4"
+            />
+          </div>
+          
+          <div class="mb-5">
+            <label for="lastName" class="block mb-2">Last Name</label>
+            <input 
+              id="lastName"
+              type="text" 
+              class="w-full border border-gray-300 p-2 mb-4"
+            />
+          </div>
+          
+          <div class="mb-5">
+            <label for="email" class="block mb-2">Email *</label>
+            <input 
+              id="email"
+              type="email" 
+              class="w-full border border-gray-300 p-2 mb-4" 
+              required
+            />
+          </div>
+          
+          <div class="mb-5">
+            <label for="message" class="block mb-2">Message</label>
+            <textarea 
+              id="message"
+              class="w-full border border-gray-300 p-2 h-32 mb-4"
+            ></textarea>
+          </div>
+          
+          <button 
+            type="submit"
+            class="bg-black text-white py-2 px-4 w-full hover:bg-gray-800 transition-colors"
+          >
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
   </div>

@@ -49,12 +49,12 @@
                     <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Work</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
+                    <a href="/about" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
+                    <a href="/contact" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
                 </li>
-                <li class="self-center relative">
+                <!-- <li class="self-center relative">
                     <button 
                         onclick={toggleMoreDropdown} 
                         class="flex items-center py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500"
@@ -69,7 +69,7 @@
                             <a href="/" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Blog</a>
                         </div>
                     {/if}
-                </li>
+                </li> -->
                 <li class="self-center">
                     <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 lg:rounded-full lg:p-3 lg:bg-neutral-100 lg:text-orange-500 lg:border-orange-500 lg:border lg:hover:bg-orange-500 lg:hover:text-neutral-100">Get Started</a>
                 </li>
