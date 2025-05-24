@@ -64,9 +64,9 @@
                     </button>
                     {#if moreDropdown}
                         <div class="absolute z-10 mt-2 w-48 bg-white rounded-lg shadow-lg py-1 lg:right-0">
-                            <a href="/#groups" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Groups</a>
-                            <a href="/#members" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Members</a>
-                            <a href="/#blog" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Blog</a>
+                            <a href="/" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Groups</a>
+                            <a href="/" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Members</a>
+                            <a href="/" onclick={toggleMoreDropdown} class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Blog</a>
                         </div>
                     {/if}
                 </li>
