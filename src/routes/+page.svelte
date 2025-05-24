@@ -197,7 +197,7 @@
   <div class="lg:max-w-screen-2xl mx-auto">
     <h2 class="text-center text-4xl font-bold mb-10">Join us today to elevate your writing!</h2>
     <div class="flex justify-center">
-      <a href="#" class="bg-transparent border border-slate-700 text-slate-800 py-3 px-6 hover:bg-slate-100 transition-colors">
+      <a href="/" class="bg-transparent border border-slate-700 text-slate-800 py-3 px-6 hover:bg-slate-100 transition-colors">
         Get Started Now
       </a>
     </div>
@@ -227,16 +227,16 @@
         </div>
         
         <div class="flex gap-2 mt-5">
-          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
             <i class="ph ph-facebook-logo"></i>
           </a>
-          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter page" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
             <i class="ph ph-twitter-logo"></i>
           </a>
-          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
             <i class="ph ph-linkedin-logo"></i>
           </a>
-          <a href="#" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page" class="bg-black text-white rounded-full p-2 w-8 h-8 flex items-center justify-center">
             <i class="ph ph-instagram-logo"></i>
           </a>
         </div>
@@ -244,24 +244,27 @@
       
       <div class="md:w-2/3 p-8">
         <div class="mb-5">
-          <label class="block mb-2">First Name</label>
+          <label for="firstName" class="block mb-2">First Name</label>
           <input 
+            id="firstName"
             type="text" 
             class="w-full border border-gray-300 p-2 mb-4"
           />
         </div>
         
         <div class="mb-5">
-          <label class="block mb-2">Last Name</label>
+          <label for="lastName" class="block mb-2">Last Name</label>
           <input 
+            id="lastName"
             type="text" 
             class="w-full border border-gray-300 p-2 mb-4"
           />
         </div>
         
         <div class="mb-5">
-          <label class="block mb-2">Email *</label>
+          <label for="email" class="block mb-2">Email *</label>
           <input 
+            id="email"
             type="email" 
             class="w-full border border-gray-300 p-2 mb-4" 
             required
@@ -269,8 +272,9 @@
         </div>
         
         <div class="mb-5">
-          <label class="block mb-2">Message</label>
+          <label for="message" class="block mb-2">Message</label>
           <textarea 
+            id="message"
             class="w-full border border-gray-300 p-2 h-32 mb-4"
           ></textarea>
         </div>
