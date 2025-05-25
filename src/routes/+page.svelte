@@ -10,7 +10,7 @@
       to elevate your research
     </h2>
     <img
-      src="/home/hero_image.png"
+      src="./home/hero_image.png"
       class="md:h-3/5 h-80 sm:w-2/5 object-cover p-5"
       alt="A guy typing in laptop keyboard"
     />
@@ -50,7 +50,7 @@
       </p>
     </div>
     <img
-      src="./about/image.png"
+      src="/about_pg/image.png"
       alt="Apex Research and Scientific Writing Academy"
       class="border-8 border-stone-700 my-5 object-cover self-center"
     />

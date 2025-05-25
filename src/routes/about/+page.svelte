@@ -1,6 +1,3 @@
-<script>
-    // Import any necessary components or libraries here
-</script>
 
 <div class="w-full bg-neutral-100 min-h-screen">
     <!-- About header section -->
@@ -37,7 +34,7 @@
             
             <div class="flex items-center justify-center">
                 <img 
-                    src="/about/pen_drop.png" 
+                    src="/about_pg/pen_drop.png" 
                     alt="Apex Research team" 
                     class="rounded-lg shadow-lg max-w-full h-auto object-cover"
                 />
